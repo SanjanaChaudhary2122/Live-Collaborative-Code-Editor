@@ -1,0 +1,116 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+.formWrapper{
+  background: rgb(24, 22, 41);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.homePageLogo{
+  height: 80px;
+  margin-bottom: 30px;
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.joinBtn, .leaveBtn{
+  background: #309eb7;
+  width: 100px;
+  margin-left: auto;
+}
+.joinBtn:hover, .leaveBtn:hover{
+  background: rgb(43, 100, 146);
+}
+.createInfo{
+  margin: 0 auto;
+  margin-top: 20px;
+  
+}
+.createNewBtn{
+  color:#309eb7;
+  text-decoration: none;
+  border-bottom: 1px solid #309eb7;
+  transition: all 0.3s ease-in-out;
+}
+.createNewBtn:hover{
+  color: rgb(43, 100, 146);
+  border-color: rgb(43, 100, 146);
+}
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  /*height: 100vh;*/
+}
+.aside{
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner{
+  flex: 1;
+}
+.clientList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-weight: bold;
+}
+.username{
+  margin-top: 10px;
+}
+.logo{
+  border-bottom: 1px solid #424242;
+}
+.logoImg{
+  height: 60px;
+}
+.leaveBtn{
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+
+}
